@@ -391,6 +391,7 @@ body {
     align-items: center;
 }
 
+
 .foto {
     width: 230px;
     height: 230px;
@@ -405,6 +406,8 @@ body {
 
     background: #FDE2E2;
 }
+
+
 
 .foto img {
     width: 100%;
@@ -426,6 +429,20 @@ body {
     margin-top: 10px;
 }
 
+.video {
+    width: 400px;
+    height: 600px;
+
+    margin: 25px auto;
+
+    border-radius: 10px;
+
+    border: 4px solid #C1121F;
+
+    overflow: hidden;
+
+    background: #FDE2E2;
+}
 
 /* =========================
    MENSAJE FINAL
