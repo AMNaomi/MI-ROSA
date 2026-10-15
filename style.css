@@ -429,19 +429,29 @@ body {
     margin-top: 10px;
 }
 
-.video {
-    width: 400px;
-    height: 600px;
+.contenedor-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
 
     margin: 25px auto;
-
     border-radius: 10px;
-
     border: 4px solid #C1121F;
-
-    overflow: hidden;
-
     background: #FDE2E2;
+    
+}
+
+.contenedor-video video {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+    object-fit: contain;
 }
 
 /* =========================
